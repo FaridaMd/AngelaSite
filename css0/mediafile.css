@@ -16,8 +16,8 @@
   /* clouds */
   .bottomcloud{
     position:relative;
-    left:-120px;
-    top:-50px;
+    left:-130px;
+    top:-20px;
     bottom:0px;
   }
   .topcloud{
