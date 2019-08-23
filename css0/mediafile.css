@@ -58,6 +58,7 @@
   }
   .col2-2{
     order: 2;
+    padding-left:0px;
   }
   .gamesimg{
     order: 1;
