@@ -1,0 +1,92 @@
+
+@media (max-width:765px) {
+  body{
+    text-align: center;
+    margin: 0;
+  }
+  .navbar{
+    text-align: left;
+  }
+  .navbar-dark .navbar-nav .nav-link{
+    color:white;
+  }
+
+  /************************* container1 */
+
+  /* clouds */
+  .bottomcloud{
+    position:relative;
+    left:-120px;
+    top:-50px;
+    bottom:0px;
+  }
+  .topcloud{
+    right: 0px;
+    left: 120px;
+    top: 0px;
+}
+
+
+
+
+  /********************* profile secton */
+
+
+  /**********************skillsection************/
+  #Skills{
+    /* padding:0px; */
+    /* margin: 20px auto; */
+    text-align: center;
+  }
+  .skillrow1,.skillrow2{
+    text-align: center;
+  }
+  .skillrow2{
+    display: flex;
+    margin: 0px;
+    margin-top: 50px;
+    padding: 0px;
+  }
+  .col1-2{
+    text-align: center;
+    padding: 0px 20px;
+  }
+  .skill-p{
+    /* padding:0px; */
+    line-height: 2;
+  }
+  .col2-2{
+    order: 2;
+  }
+  .gamesimg{
+    order: 1;
+  }
+
+  /*****************contact******************/
+  .contactme{
+    /* width:400px; */
+    margin: 20px auto;
+    text-align: center;
+  }
+  .touch{
+    margin:10px auto;
+  }
+  .touch-p{
+    padding:0 10px;
+  }
+
+
+
+  hr{
+    border-style: dotted;
+    border-top-width:15px;
+    border-color: #66BFBF;
+    margin:100px auto;
+    width: 100px;
+  }
+}
+@media (min-width:766) and (max-width:800) {
+    .bottomcloud{
+      left: -200;
+    }
+}
